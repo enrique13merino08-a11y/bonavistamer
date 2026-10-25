@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      Contacto | Bona Vista - Centro Recreacional Turístico Campestre
+    </title>
+    <meta
+      name="description"
+      content="Bona Vista: piscinas, comida típica, bungalows y eventos en plena naturaleza."
+    />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-bonavista.png?v=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lilita+One&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <header id="nav"></header>
+    <section class="ph-hero" style="--bg: url(../img/entrada.jpg)">
+      <img
+        class="leaf"
+        src="assets/img/hoja3.png"
+        alt=""
+        data-k="0.04"
+        style="right: 2vw; top: 90px; width: 110px"
+      />
+      <div class="wrap">
+        <span class="script kick" style="color: var(--lime)"
+          >Reserva tu visita</span
+        >
+        <h1>Contacto</h1>
+      </div>
+    </section>
+    <section class="sec mist">
+      <div class="wrap two" style="align-items: start">
+        <form id="reserva" class="box rv l">
+          <h3 class="lil" style="font-size: 30px">Reservar ahora</h3>
+          <input name="nombre" placeholder="Tu nombre" required /><input
+            name="fecha"
+            type="date"
+            required
+          /><input
+            name="personas"
+            type="number"
+            min="1"
+            placeholder="N.º de personas"
+            required
+          /><select name="servicio">
+            <option>Piscinas</option>
+            <option>Bungalows</option>
+            <option>Restaurante</option>
+            <option>Evento</option></select
+          ><textarea
+            name="mensaje"
+            rows="4"
+            placeholder="Mensaje (opcional)"
+          ></textarea
+          ><button class="btn" type="submit">
+            Enviar por WhatsApp <svg class="i"><use href="#i-wa" /></svg>
+          </button>
+        </form>
+        <div class="contact-details grid rv r" style="grid-template-columns: 1fr">
+          <article class="box rv">
+            <i
+              ><svg class="i"><use href="#i-pin" /></svg
+            ></i>
+            <h3>Ubicación</h3>
+            <p>Satipo, Junín · Perú</p>
+          </article>
+          <article class="box rv">
+            <i
+              ><svg class="i"><use href="#i-wa" /></svg
+            ></i>
+            <h3>WhatsApp</h3>
+            <p>Escríbenos para reservas y cotizaciones.</p>
+            <a class="contact-whatsapp" href="https://wa.me/51939017959" target="_blank" rel="noopener">
+              +51 939 017 959
+            </a>
+          </article>
+          <article class="contact-map box">
+            <h3>¿Cómo llegar?</h3>
+            <p>Recreo campestre Bona Vista · Satipo</p>
+            <div class="inline-map">
+              <iframe
+                src="https://maps.google.com/maps?q=Recreo%20campestre%20Bona%20Vista%2C%20Q9F8%2BQC%2C%20Jr.%20Colonos%20Fundadores%2C%20Satipo%2012261%2C%20Per%C3%BA&t=k&z=17&output=embed"
+                title="Mapa satelital de Recreo campestre Bona Vista en Satipo"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div id="foot"></div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
